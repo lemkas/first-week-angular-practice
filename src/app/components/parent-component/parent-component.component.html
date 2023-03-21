@@ -3,3 +3,7 @@
 <app-child-component [number]="number"></app-child-component>
 
 <app-child-component-two></app-child-component-two>
+
+<app-child-component-three>
+  <p #paragraph>ng-content {{ number }}</p>
+</app-child-component-three>
